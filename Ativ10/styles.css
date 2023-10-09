@@ -1,0 +1,15 @@
+body {
+    background-color: whitesmoke;
+    font-family: Arial, sans-serif;
+    padding: 0;
+    color: blueviolet;
+}
+
+div {
+    padding: 10px;
+    text-align: left;
+}
+
+p {
+    margin: 0;
+}
