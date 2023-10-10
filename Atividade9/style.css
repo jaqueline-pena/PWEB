@@ -1,0 +1,54 @@
+body {
+    background-image: url(movie4.jpg);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    text-align: initial;
+    margin: 20px auto;
+    max-width: 300px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="number"],
+select {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #09b699;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+span {
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

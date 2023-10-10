@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Questionário de Filme</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Atividade 9</h1>
+    <h2>Questionário de Filme</h2>
+    <form id="questionnaireForm">
+        <label for="idade">Digite a sua idade:</label>
+        <input type="number" id="idade" required>
+
+        <label for="sexo">Escolha o sexo com que você se identifica:</label>
+        <select id="sexo" required>
+            <option value="masculino">Masculino</option>
+            <option value="feminino">Feminino</option>
+        </select>
+
+        <label for="opiniao">Expresse sua opinião sobre o filme assistido:</label>
+        <select id="opiniao" required>
+            <option value="4">Ótimo</option>
+            <option value="3">Bom</option>
+            <option value="2">Regular</option>
+            <option value="1">Péssimo</option>
+        </select>
+
+        <button type="button" onclick="calcularEstatisticas()">Calcular Estatísticas</button>
+    </form>
+
+    <h2>Estatísticas:</h2>
+    <p>Média de Idade: <span id="mediaIdade">-</span></p>
+    <p>Pessoa mais velha: <span id="maisVelha">-</span></p>
+    <p>Pessoa mais nova: <span id="maisNova">-</span></p>
+    <p>Quantidade de Péssimo: <span id="quantidadePessimo">-</span></p>
+    <p>Porcentagem de Ótimo e Bom: <span id="porcentagemOtimoBom">-</span>%</p>
+    <p>Número de Mulheres: <span id="numeroMulheres">-</span></p>
+    <p>Número de Homens: <span id="numeroHomens">-</span></p>
+    <script src="script.js"></script>
+</body>
+</html>
