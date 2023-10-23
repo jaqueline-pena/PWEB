@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 13</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+    <script>
+        function tudoMaiusc() {
+            document.getElementById("texto").value =
+            document.getElementById("texto").value.toUpperCase();
+            document.forms.validacao.op1.checked;
+            document.forms.validacao.op2.checked = false;
+        }
+        function tudoMinusc() {
+            document.getElementById("texto").value =
+            document.getElementById("texto").value.toLowerCase();
+            document.forms.validacao.op1.checked = false;
+            document.forms.validacao.op2.checked;
+        }
+    </script>
+</head>
+<body>
+
+    <form name="validacao">
+        Texto
+        <input type="text" id="texto" name="texto"
+        size=20 maxlength="20">
+
+        <br> Maiusculas
+        <input type="checkbox" id="op1" name="op1"
+        value="1" onClick="tudoMaiusc();">
+
+        <br>Minusculas
+        <input type="checkbox" id="op2" name="op2"
+        value="2" onClick="tudoMinusc();">
+    </form>
+</body>
+</html>
