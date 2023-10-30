@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atividade 15</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <section>
+    <form action="" name="atividade" id="atividade" onsubmit="return validarCampos();">
+      <fieldset>
+        <legend>
+          <h2>Formulário Principal</h2>
+        </legend>
+
+        <div>
+          <label for="nome">
+            <h3>Nome:</h3>
+          </label>
+          <input type="text" name="nome" id="nome" class="text" minlength="10">
+        </div>
+        <div>
+          <label for="email">
+            <h3>E-mail:</h3>
+          </label>
+          <input type="email" name="email" id="email" class="text">
+        </div>
+
+        <div>
+          <label for="comentario">
+            <h3>Comentários:</h3>
+          </label>
+          <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+        </div>
+
+        <div>
+          <label for="pesquisa>
+            <h3>Pesquisa:</h3>
+          </label>
+          <p>Primeira vez nessa página?</p>
+          <div class="radios">
+            <input type="radio" name="pesquisa" id="sim" class="radio" value="Sim">
+            <label for="sim">Sim</label>
+            <input type="radio" name="pesquisa" id="nao" class="radio" value="Não">
+            <label for="nao">Não</label>
+          </div>
+        </div>
+
+        <div class="buttons">
+          <button type="submit" name="enviar" id="enviar" class="button">Enviar</button>
+          <button type="reset" name="limpar" id="limpar" class="button">Limpar</button>
+        </div>
+      </fieldset>
+    </form>
+  </section>
+  <footer class="div-bottom"></footer>
+</body>
+</html>

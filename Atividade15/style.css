@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body {
+  background-color: rgb(118, 91, 236);
+  color: whitesmoke;
+}
+
+form {
+  max-width: 280px;
+  min-width: auto;
+}
+input.text {
+  max-width: 280px;
+  min-width: auto;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+textarea {
+  max-width: 280px;
+  min-width: auto;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
